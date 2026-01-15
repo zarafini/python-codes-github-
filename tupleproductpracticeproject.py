@@ -1,6 +1,8 @@
-tuple1= (4)
-tuple2= (25)
+tuplenum= (2, 4, 6, 8)
 
-tuple3= tuple1 * tuple2
+tupleans= 1
 
-print(tuple3)
+for i in tuplenum:
+    tupleans= tupleans * i
+
+print("The product is:", tupleans)
